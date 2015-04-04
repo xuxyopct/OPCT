@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="OPCT.exe" version="1.0.0.0" publicKeyToken="ea2326aa1d96fbfa" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="23.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="OPCT" version="0.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="OPCT.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OPCT.exe" size="84480">
+      <assemblyIdentity name="OPCT" version="0.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>UmuHx9OKopa/lusUCCrYRUn/4dI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="23.ico" size="10134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>599ckQDnyUJczfaxhzOhb5q+MnE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="OPCT.exe.config" size="117">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>a3Forh+i+nzyaONrpGeK7Sudu10=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Xuxy-PC\Xuxy" issuerKeyHash="7b164d50ceaea9cc78dc00d4f93d87cab7ac0307" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ix7w1dUJiEe1M0Br+3nzCEyg+Zo=</DigestValue></Reference></SignedInfo><SignatureValue>URPoNQbmIvgnILlb9lguPq7+mhFk2eC5kT2vZu/0pnCeVL35roVN/jhDiYXQAHqNTJOp0ed1HGduthoaiFtUBk8UJYeNk0FWGFVjMaGXpVZy23xLtyMP35KlbSzowopd+Rdgbzy3OupFVMdWDCTpDIZFOsMIFocEQMfA0U2vYXg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pOQQM2ZlUIILYP9I9/3AfrLaJn4ASESr7dir96l5pUDXoT97PVBXY+8egp/9r76AGOZvm+u1DWQn1hdELF6KXj06Phf6HIreboMy+k11UPm37Zde6pjmxtY9y4vtg6B9ebZyJpQRq0L0TB1UN5ad9UDXBDeMB8lx7pXxzwEH2k8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9af9a04c08f379fb6b4033b5478809d5d5f01e8b" Description="" Url=""><as:assemblyIdentity name="OPCT.exe" version="1.0.0.0" publicKeyToken="ea2326aa1d96fbfa" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Xuxy-PC\Xuxy</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8V+C6h6CUSdQgpTdbdVPm4nsYwg=</DigestValue></Reference></SignedInfo><SignatureValue>du8edKfmt307ZmxQwPLnt0JFj0OsYwQ1LsUMRC4yc1291TUrubFV6j/+J5XUw+qQS5UOHUzQdhajRWmfkNnCDyunDjAsXlAr9VuFZ+L1T2vnlqqVjjWDZ4pfh3NSCPmOL3rMjVsShhWcebcTzKhFeNVKH1zCg9DKxDvj0kiNFX4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pOQQM2ZlUIILYP9I9/3AfrLaJn4ASESr7dir96l5pUDXoT97PVBXY+8egp/9r76AGOZvm+u1DWQn1hdELF6KXj06Phf6HIreboMy+k11UPm37Zde6pjmxtY9y4vtg6B9ebZyJpQRq0L0TB1UN5ad9UDXBDeMB8lx7pXxzwEH2k8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQERbJ9LFT8ZZDhwK4Yu4HQTANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgAWAB1AHgAeQAtAFAAQwBcAFgAdQB4AHkwHhcNMTIwNDMwMjMzMzA4WhcNMTMwNTAxMDUzMzA4WjAjMSEwHwYDVQQDHhgAWAB1AHgAeQAtAFAAQwBcAFgAdQB4AHkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKTkEDNmZVCCC2D/SPf9wH6y2iZ+AEhEq+3Yq/epeaVA16E/ez1QV2PvHoKf/a++gBjmb5vrtQ1kJ9YXRCxeil49Oj4X+hyK3m6DMvpNdVD5t+2XXuqY5sbWPcuL7YOgfXm2ciaUEatC9EwdVDeWnfVA1wQ3jAfJce6V8c8BB9pPAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAHezZRugx2Z4GFTHCe+AwAfKjloCFJ0kR9WoAhReohAC1oBiVipBYCjWDo7WG/ppGTfLxulHDJL7Py4Aw7z1PsQOg1A3hWKmugdjCPo1P3t17csdfbBHAiXnMovkAZNQRfKjEEY6kimPF3OZY7f9G3ojipOXx2laK2YQwTr3G0PI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

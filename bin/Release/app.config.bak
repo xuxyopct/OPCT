@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <appSettings>
+        <add name="ConnectionString" connectionString="Data Source=bocnet_d1;User ID=bocnet;Password=bocnet;Unicode=True" providerName="System.Data.OracleClient"  />    
+        <add name="ConnectionString" connectionString="Data Source=oraGUPP1;User ID=BOC_POC;Password=BOC_POC;Unicode=True" providerName="System.Data.OracleClient" />  
+        <add name="ConnectionString" connectionString="Data Source=oraGUPP2;User ID=BOC_POC;Password=BOC_POC;Unicode=True" providerName="System.Data.OracleClient" />
+        <add name="ConnectionString" connectionString="Data Source=oraGUPP1;User ID=BOC_POC_APP;Password=BOC_POC_APP;Unicode=True" providerName="System.Data.OracleClient" />
+        <add name="ConnectionString" connectionString="Data Source=oraGUPP2;User ID=BOC_POC_APP;Password=BOC_POC_APP;Unicode=True" providerName="System.Data.OracleClient" />
+        <add name="ConnectionString" connectionString="Data Source=oraGUPP1;User ID=PIPDB;Password=PIPDB;Unicode=True" providerName="System.Data.OracleClient" />
+        <add name="ConnectionString" connectionString="Data Source=oraGUPP2;User ID=PIPDB;Password=PIPDB;Unicode=True" providerName="System.Data.OracleClient" />                                      
+    </appSettings>
+</configuration>
