@@ -1,4 +1,6 @@
 Description
-OPCT-Oracle Performace Check Tool
+OPCT-Oracle Performance Check Tool
+
 Roadmap
-OPCT 1.1 Release, base on oracle 10g,11g,12c. 
+OPCT 1.1 Release based on oracle 10g, 11g, 12c. 
+
